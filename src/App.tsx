@@ -1,7 +1,12 @@
 import React from "react";
+import "./App.css";
 
-function App() {
-	return <div>App</div>;
-}
+const App: React.FC = () => {
+	return (
+		<div className="App">
+			<span className="heading"> My Todo List</span>
+		</div>
+	);
+};
 
 export default App;
